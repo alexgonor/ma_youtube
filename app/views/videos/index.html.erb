@@ -1,0 +1,16 @@
+<h1>Videos</h1>
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th></th>
+  </tr>
+
+  <% @videos.each do |video| %>
+    <tr>
+      <td><%= video.id %></td>
+      <td><%= video.title %></td>
+    </tr>
+  <% end %>
+</table>
